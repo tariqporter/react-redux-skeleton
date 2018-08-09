@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+button {
+  cursor: pointer; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.btn-default {
+  color: #fff; }
+
+.btn-none {
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none; }
+
+.fx-row, .fx-row_c {
+  display: flex;
+  flex-direction: row; }
+  .fx-row_c {
+    align-items: center; }
+
+.fx-col {
+  display: flex;
+  flex-direction: column; }
+
+.fx-c {
+  flex: 0 1 auto; }
+  .fx-c_f {
+    flex: 1 1 100%; }
+  .fx-c_s {
+    align-self: flex-start;
+    flex: 0 1 auto; }
+  .fx-c_c {
+    align-self: center;
+    flex: 0 1 auto; }
+  .fx-c_e {
+    margin-left: auto;
+    flex: 0 1 auto; }
+
+.fx-mr {
+  margin-right: 10px; }
